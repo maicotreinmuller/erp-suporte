@@ -1,7 +1,9 @@
 
 # ERP Suporte
 
-Sistema **ERP (Enterprise Resource Planning)** projetado para gerenciar e automatizar processos empresariais de forma eficiente. Utiliza tecnologias modernas para oferecer alto desempenho, escalabilidade e uma experiência de usuário intuitiva, ideal para empresas que buscam centralizar operações e otimizar fluxos de trabalho.
+Sistema **ERP (Enterprise Resource Planning)** projetado para gerenciar e automatizar processos empresariais de forma eficiente. Utiliza tecnologias modernas para oferecer alto desempenho, escalabilidade e uma experiência de usuário intuitiva, ideal para microempresas ou freelancers que desejam um maior controle sobre suas atividades.
+
+Embora o projeto não possua um backend estruturado, ele utiliza armazenamento local para gerenciar os dados, mantendo a simplicidade e a praticidade para pequenos negócios.
 
 ---
 
@@ -12,6 +14,9 @@ Sistema **ERP (Enterprise Resource Planning)** projetado para gerenciar e automa
 - **Configurações Personalizáveis**: Ajuste de funcionalidades conforme as necessidades do negócio.
 - **Desempenho Otimizado**: Uso de ferramentas modernas de build para eficiência.
 - **Estrutura Modular**: Código organizado para facilitar manutenção e atualizações.
+- **Backup e Restauração de Dados**: Através da funcionalidade de gerenciamento de dados, é possível:
+  - Exportar os dados do sistema em um arquivo JSON contendo todas as informações.
+  - Importar o arquivo JSON em outra máquina, caso seja necessário restaurar ou transferir os dados.
 
 ---
 
@@ -84,3 +89,5 @@ erp-suporte/
 ```
 
 ---
+
+Este projeto é uma solução acessível e prática para quem busca gerenciar suas atividades empresariais sem a complexidade de sistemas robustos. Com recursos de backup e restauração, ele garante segurança e flexibilidade para o uso diário.
